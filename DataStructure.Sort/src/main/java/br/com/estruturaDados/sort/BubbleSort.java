@@ -1,7 +1,5 @@
 package br.com.estruturaDados.sort;
 
-import java.util.Arrays;
-
 public class BubbleSort {
 	public int [] orderly(int[] sort) {
 		int aux;
@@ -12,11 +10,8 @@ public class BubbleSort {
 					sort[j] = sort[j + 1];
 					sort[j + 1] = aux;
 				}
-
 			}
 		}
-		
-		System.out.println(Arrays.toString(sort));
 		return sort;
 	}
 }

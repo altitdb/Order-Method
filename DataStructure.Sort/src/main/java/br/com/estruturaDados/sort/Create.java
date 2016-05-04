@@ -65,18 +65,23 @@ public class Create {
 		return sequence;
 	}
 	
-	
-	public static void main(String[] args) {
-		
-		int[] a = new Create().orderly(100);
+	public long [] time(long [] timeMillis,int i,int size){
+		Long start = System.currentTimeMillis();
 		BubbleSort bubble = new BubbleSort();
-		bubble.orderly(a);
+		bubble.orderly(new Create().orderly(10));
+		Long end = System.currentTimeMillis();
 		
+		return time(timeMillis,i,size);
+	}
+	public static void main(String[] args) {
+		Long start = System.currentTimeMillis();
+
 		
-//		int[] b = new Create().orderReverse(50);
-//		int[] c = new Create().disorderly(50);
-//		int[] d = new Create().percentageRight(100);
-//		int[] e = new Create().percentageLeft(100);
-//		System.out.println(Arrays.toString(e));
+		BubbleSort bubble = new BubbleSort();
+		bubble.orderly(new Create().orderly(10000));
+		
+		Long end = System.currentTimeMillis();
+		System.out.println(end - start);
+
 	}
 }
