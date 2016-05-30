@@ -1,9 +1,11 @@
 package br.com.estruturaDados.sort;
 
-import java.util.Arrays;
 import java.util.Random;
 
-public class Create {
+import br.com.factoryPattern.WriteFactory;
+
+public class Create{
+	
 	Random random = new Random();
 	
 	public int[] orderly(int size) {
@@ -65,23 +67,9 @@ public class Create {
 		return sequence;
 	}
 	
-	public long [] time(long [] timeMillis,int i,int size){
-		Long start = System.currentTimeMillis();
-		BubbleSort bubble = new BubbleSort();
-		bubble.orderly(new Create().orderly(10));
-		Long end = System.currentTimeMillis();
-		
-		return time(timeMillis,i,size);
-	}
 	public static void main(String[] args) {
-		Long start = System.currentTimeMillis();
-
-		
-		BubbleSort bubble = new BubbleSort();
-		bubble.orderly(new Create().orderly(10000));
-		
-		Long end = System.currentTimeMillis();
-		System.out.println(end - start);
-
+       WriteFactory write = new WriteFactory();
+       write.collection(10);
+       System.out.println("foi");
 	}
 }
