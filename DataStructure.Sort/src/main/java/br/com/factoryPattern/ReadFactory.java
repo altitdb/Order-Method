@@ -78,7 +78,7 @@ public class ReadFactory {
 			break;
 		case 4:
 			QuickSort quick = new QuickSort();
-			for (int i = 1; i <= 6; i++) {
+			for (int i = 1; i <= 5; i++) {
 				String teste = value + i + ".txt";
 				String[] a = new ReadFactory().read(teste);
 				int[] b = new ReadFactory().converts(a);
