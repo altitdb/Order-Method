@@ -46,7 +46,7 @@
 				<td>19</td>
 				<td>47</td>
 				<td>3745</td>
-				<td>Ml/s</td>
+				<td>Ms</td>
 			</tr>
 			<tr>
 				<td>Select Sort</td>
@@ -55,7 +55,7 @@
 				<td>7</td>
 				<td>26</td>
 				<td>2368</td>
-				<td>Ml/s</td>
+				<td>Ms</td>
 			</tr>
 			<tr>
 				<td>Insert Sort</td>
@@ -64,7 +64,7 @@
 				<td>0</td>
 				<td>0</td>
 				<td>7</td>
-				<td>Ml/s</td>
+				<td>Ms</td>
 			</tr>
 			<tr>
 				<td>Quick Sort</td>
@@ -73,11 +73,215 @@
 				<td>4</td>
 				<td>78</td>
 				<td>-</td>
-				<td>Ml/s</td>
+				<td>Ms</td>
 			</tr>
 		</tbody>
 	</table>
-	<p><i><strong>Observações:</strong>significado <strong>-</strong>: Estouro de menória</i></p>
+	<table>
+		<caption>Arquivos Desordenados</caption>
+		<thead>
+			<tr>
+				<th></th>
+				<th>10</th>
+				<th>100</th>
+				<th>1000</th>
+				<th>10000</th>
+				<th>100000</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Bubble Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>9</td>
+				<td>161</td>
+				<td>23318</td>
+				<td>Ms</td>
+			</tr>
+			<tr>
+				<td>Select Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>6</td>
+				<td>63</td>
+				<td>5267</td>
+				<td>Ms</td>
+			</tr>
+			<tr>
+				<td>Insert Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>5</td>
+				<td>84</td>
+				<td>1218</td>
+				<td>Ms</td>
+			</tr>
+			<tr>
+				<td>Quick Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>3</td>
+				<td>15</td>
+				<td>Ms</td>
+			</tr>
+		</tbody>
+	</table>
+	<table>
+		<caption>Arquivos Decrescente</caption>
+		<thead>
+			<tr>
+				<th></th>
+				<th>10</th>
+				<th>100</th>
+				<th>1000</th>
+				<th>10000</th>
+				<th>100000</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Bubble Sort</td>
+				<td>0</td>
+				<td>1</td>
+				<td>12</td>
+				<td>68</td>
+				<td>10284</td>
+				<td>Ms</td>
+			</tr>
+			<tr>
+				<td>Select Sort</td>
+				<td>0</td>
+				<td>1</td>
+				<td>5</td>
+				<td>93</td>
+				<td>5524</td>
+				<td>Ms</td>
+			</tr>
+			<tr>
+				<td>Insert Sort</td>
+				<td>0</td>
+				<td>1</td>
+				<td>6</td>
+				<td>109</td>
+				<td>2704</td>
+				<td>Ms</td>
+			</tr>
+			<tr>
+				<td>Quick Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>4</td>
+				<td>99</td>
+				<td>-</td>
+				<td>Ms</td>
+			</tr>
+		</tbody>
+	</table>
+	<table>
+		<caption>Arquivos Desordenados 10% a direita</caption>
+		<thead>
+			<tr>
+				<th></th>
+				<th>10</th>
+				<th>100</th>
+				<th>1000</th>
+				<th>10000</th>
+				<th>100000</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Bubble Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>10</td>
+				<td>138</td>
+				<td>4854</td>
+				<td>Ms</td>
+			</tr>
+			<tr>
+				<td>Select Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>8</td>
+				<td>71</td>
+				<td>5290</td>
+				<td>Ms</td>
+			</tr>
+			<tr>
+				<td>Insert Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>2</td>
+				<td>24</td>
+				<td>953</td>
+				<td>Ms</td>
+			</tr>
+			<tr>
+				<td>Quick Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>1</td>
+				<td>5</td>
+				<td>21</td>
+				<td>Ms</td>
+			</tr>
+		</tbody>
+	</table>
+	<table>
+		<caption>Arquivos Desordenados 10% a esquerda</caption>
+		<thead>
+			<tr>
+				<th></th>
+				<th>10</th>
+				<th>100</th>
+				<th>1000</th>
+				<th>10000</th>
+				<th>100000</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Bubble Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>8</td>
+				<td>43</td>
+				<td>6927</td>
+				<td>Ms</td>
+			</tr>
+			<tr>
+				<td>Select Sort</td>
+				<td>0</td>
+				<td>1</td>
+				<td>8</td>
+				<td>63</td>
+				<td>5258</td>
+				<td>Ms</td>
+			</tr>
+			<tr>
+				<td>Insert Sort</td>
+				<td>0</td>
+				<td>1</td>
+				<td>2</td>
+				<td>23</td>
+				<td>971</td>
+				<td>Ms</td>
+			</tr>
+			<tr>
+				<td>Quick Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>2</td>
+				<td>13</td>
+				<td>47</td>
+				<td>Ms</td>
+			</tr>
+		</tbody>
+	</table>
+	<p><i><strong>Observações:</strong>significado <strong>-</strong>: Estouro de memória do computador (não conseguiu calcular)</i></p>
 
 </body>
 </html>
