@@ -8,8 +8,7 @@
 	<link rel="stylesheet" href="">
 </head>
 <body>
-	<div>
-
+	
 	<h1>Sort algorithm - Teste de eficiencia</h1>
 	<p>Estrutura feita, para defesa do artigo, na disciplina de <strong>ESTRUTURA DE DADOS II.</strong>
 		<i>Professor Ministrador: Altieres de Mattos</i>
@@ -24,8 +23,6 @@
 	    <li><a href="http://www.ft.unicamp.br/liag/siteEd/definicao/insertion-sort.php">Insert Sort</a></li>
 	    <li><a href="http://www.ft.unicamp.br/liag/siteEd/definicao/quick-sort.php">Quick Sort</a></li>
 	</ul>
-
-	</div>
 
 </body>
 </html>
