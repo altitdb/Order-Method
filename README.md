@@ -25,6 +25,33 @@
 	<p>Os Teste foram executados em um maquina com processador Core i3, com 4 gigas de memória.<br>
 	 Todos os teste foram calculados em Mille segundo, o tempo pode sofrer alterações dependendo das configurações do computador, que está sendo utiliado.</p>
 	 <p>Os Métodos de leitura de arquivo e gravação desconsiderados do calculo no tempo de execução</p>
+	<table>
+		<caption>Arquivos Ordenados</caption>
+		<thead>
+			<tr>
+				<th></th>
+				<th>10</th>
+				<th>100</th>
+				<th>1000</th>
+				<th>10000</th>
+				<th>100000</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Bubble Sort</td>
+			</tr>
+			<tr>
+				<td>Select Sort</td>
+			</tr>
+			<tr>
+				<td>Insert Sort</td>
+			</tr>
+			<tr>
+				<td>Quick Sort</td>
+			</tr>
+		</tbody>
+	</table>
 
 </body>
 </html>
