@@ -23,7 +23,8 @@
 	</ul>
 	<h2>Informações extras</h2>
 	<p>Os Teste foram executados em um maquina com processador Core i3, com 4 gigas de memória.<br>
-	 Todos os teste foram calculados em Mille segundo, e tempo pode variar dependendo das configurações do computador, que está sendo utiliado.</p>
+	 Todos os teste foram calculados em Mille segundo, o tempo pode sofrer alterações dependendo das configurações do computador, que está sendo utiliado.</p>
+	 <p>Os Métodos de leitura de arquivo e gravação desconsiderados do calculo no tempo de execução</p>
 
 </body>
 </html>
