@@ -25,6 +25,7 @@
 	<p>Os Teste foram executados em um maquina com processador Core i3, com 4 gigas de memória.<br>
 	 Todos os teste foram calculados em Mille segundo, o tempo pode sofrer alterações dependendo das configurações do computador, que está sendo utiliado.</p>
 	 <p>Os Métodos de leitura de arquivo e gravação desconsiderados do calculo no tempo de execução</p>
+	<h2>Resultados dos testes de desempenhos</h2>
 	<table>
 		<caption>Arquivos Ordenados</caption>
 		<thead>
@@ -40,18 +41,43 @@
 		<tbody>
 			<tr>
 				<td>Bubble Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>19</td>
+				<td>47</td>
+				<td>3745</td>
+				<td>Ml/s</td>
 			</tr>
 			<tr>
 				<td>Select Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>7</td>
+				<td>26</td>
+				<td>2368</td>
+				<td>Ml/s</td>
 			</tr>
 			<tr>
 				<td>Insert Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>7</td>
+				<td>Ml/s</td>
 			</tr>
 			<tr>
 				<td>Quick Sort</td>
+				<td>0</td>
+				<td>0</td>
+				<td>4</td>
+				<td>78</td>
+				<td>-</td>
+				<td>Ml/s</td>
 			</tr>
 		</tbody>
 	</table>
+	<p><i><strong>Observações:</strong>significado <strong>-</strong>: Estouro de menória</i></p>
 
 </body>
 </html>
