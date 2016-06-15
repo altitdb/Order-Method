@@ -1,4 +1,4 @@
-
+﻿
 
 <html>
 <head>
@@ -10,9 +10,10 @@
 <body>
 	
 	<h1>Sort algorithm - Teste de eficiencia</h1>
-	<p>Estrutura feita, para defesa do artigo, na disciplina de <strong>ESTRUTURA DE DADOS II.</strong>
+	<p>
+              Estrutura feita, para defesa do artigo, na disciplina de <strong>ESTRUTURA DE DADOS II.</strong>
 		<i>Professor Ministrador: Altieres de Mattos</i>
-    </p>
+       </p>
 
 	<p>Com intuito de testar a eficiencia dos algoritmos de ornação</p>
 	<h2>Algoritmos utilizados</h2>
